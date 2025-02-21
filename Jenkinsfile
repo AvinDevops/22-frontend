@@ -39,7 +39,7 @@ pipeline {
                     groupId: 'com.expense',
                     version: "${appVersion}",
                     repository: 'frontend',
-                    credentialsId: 'nexus_auth',
+                    credentialsId: 'nexus-auth',
                     artifacts: [
                         [artifactId: "frontend",
                         classifier: '',
